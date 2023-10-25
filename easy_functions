@@ -3,7 +3,7 @@ import json
 import re
 from base64 import b64encode
 from IPython.display import HTML, display
-device = 'cuda'
+
 
 def get_video_details(filename):
   cmd = ['ffprobe', '-v', 'error', '-show_format', '-show_streams', '-of', 'json', filename]
