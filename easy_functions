@@ -1,15 +1,7 @@
-import torch
 import subprocess
 import json
-import os
-import dlib
-import gdown
-import pickle
 import re
-from models import Wav2Lip
 from base64 import b64encode
-from urllib.parse import urlparse
-from torch.hub import download_url_to_file, get_dir
 from IPython.display import HTML, display
 device = 'cuda'
 
